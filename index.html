@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a5ef7b698.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-eHOq4nUzPEL75Czz4nBCde53wZ2pcSt1/0DOZC1+dJQyR5fmn8cFO1xLkT5Q5exh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav><img src="logomm.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portofolio">portofolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <img style="float:right;border: 4px solid #ff004f ; width: 40%;border-radius: 50%; " src="jahead.jpg"
+                    alt="Loding image">
+                <p>Java Developer</p>
+                <h1>Hi,I'm <span>Jareena Shaik</span><br> from khammam <br>know more about me</h1>
+
+
+            </div>
+
+
+            <div class="home-sci">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="#" class="btn-box">More about Me</a>
+        </div>
+
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="jareena linkdin1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="font-size: 120%;">I'm Shaik.Jareena, a Fullstack java Developer with a passion for
+                        desiging webpages .As a Fresher i'am exploring new technology's
+                        and Looking forward to an organization that offers a challenging, stimulating environment to
+                        work
+                        in, provide scope for individual development and offers prospects for long-term personal
+                        development and has state of art technology.
+
+                    </p>
+                    <div class="taab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('projects')">projects</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Applications</span><br>Html,CSS,JavaScript,React.js</li>
+                            <li><span>backend Applications</span><br>CoreJava,oracle-19</li>
+                            <li><span>Programming Language</span><br>C,java</li>
+                            <li><span>Pcb Desiging</span><br>pcb</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>Java Full Stack from NareshIT-Institue</li>
+                            <li><span>2023</span><br>Bacheolore's of degree(Btech) at kits colleage.</li>
+                            <li><span>2017</span><br>Intermidate from kodad</li>
+                            <li><span>2016</span><br>SSC form khammam</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>2022</span><br>Automatic voice contolled robot</li>
+                            <li><span>2023</span><br>Tracking visual object as an extended Target using digital image
+                                processing</li>
+                            <li><span>UI?UX</span><br>Desiging Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-webflow"></i>
+                    <h2>Web Desiging</h2>
+                    <p>Design, develop, and deploy web applications based on clients' specifications.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Front-End Development</h2>
+                    <p>Build interactive and responsive user interfaces using HTML, CSS, and JavaScript frameworks like
+                        React js</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Back-End Development</h2>
+                    <p>Create robust server-side applications using server-side languages such as Node.js,Java
+                        (Spring),Oracle-19</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Web page Desiging</h3>
+                        <p> It involves the creation and arrangement of visual elements, layout, and interactive
+                            features on a webpage to achieve a visually appealing and user-friendly experience.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>E-commerce Platform:</h3>
+                        <p>Front End: Develop a responsive online store with product listings, a shopping cart, and a
+                            checkout system.
+                            Back End: Implement user authentication, order processing, and inventory management using
+                            technologies like Spring Boot and Hibernate.</p>
+
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Chat Application:</h3>
+                        <p>Front End: Develop a real-time chat interface with public and private channels.
+                            Back End: Implement a chat server using WebSockets, handle user authentication, and store
+                            chat history. Use Spring Boot for the back end.</p>
+
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> shaikjareeena93.90@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 9390189433</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="resume taker.doc" download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="message" id="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Jareena Shaik.<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbygoyD0UuDWGVrf8v0WZciuF55-G3OfMBw-1WeVbhzFAfu7igMdCAP0FV2LiKeFOSfG/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    
+                },5000)
+                form.reset()
+            })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+
+</html>
